@@ -1,0 +1,39 @@
+:root{
+--dark-gray: #2C3E50;
+--aqua-green: #1ABC9C;
+--white: #FFFFFF;
+--light-gray: #3A546D;
+--black: #333333;
+}
+
+body{
+    color: white;
+}
+
+header, #about{
+    background-color: #1ABC9C;
+}
+
+main {
+    background-color: white;
+}
+
+#top-footer{
+    background-color: var(--light-gray);
+}
+
+#btm-footer{
+    background-color: var(--dark-gray);
+}
+
+/* hader */
+.fg-navbar{
+    background-color: var(--dark-gray);
+}
+.navbar-toggler, .navbar-toggler-icon{
+    color: white;
+}
+
+.navbar-toggler{
+    border: 1px solid white;
+}
