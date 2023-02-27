@@ -46,3 +46,27 @@ h1{
     width: 15%;
     background-color: white;
 }
+.brace-dark{
+    background-color: var(--dark-gray);
+}
+
+.fg-btn{
+    border-color: white;
+    color: white;
+}
+.fg-btn:is(:hover,:active, :focus, :visited, :target ){
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+.fg-btn-green{
+    background-color: var(--aqua-green);
+    border-color: var(--aqua-green);
+    color: white;
+}
+
+.fg-btn-green:is(:hover, :active, :focus, :visited, :target){
+    background-color: var(--aqua-green);
+    border-color: var(--aqua-green);
+}
+
