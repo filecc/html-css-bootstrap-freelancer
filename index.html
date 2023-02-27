@@ -1,83 +1,109 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="./css/master.css">
-  </head>
-  <body>
-   
-    
-        <nav class="navbar navbar-expand-md navbar-dark fg-navbar">
-            <div class="container-lg py-3 d-flex">
+</head>
 
-              <a class="navbar-brand text-uppercase fw-bold" href="./index.html">start bootstrap</a>
+<body>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fg-navbar">
+        <div class="container-lg py-3 d-flex">
+
+            <a class="navbar-brand text-uppercase fw-bold" href="./index.html">start bootstrap</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
+            </button>
 
-              <div class="collapse navbar-collapse me-auto" id="navbarToggler">
+            <div class="collapse navbar-collapse me-auto" id="navbarToggler">
                 <!-- span ghost element to align navbar link on the right-->
                 <span aria-hidden="true" class="me-auto"></span>
                 <!--/span ghost element to align navbar link on the right-->
                 <ul class="navbar-nav mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-uppercase" aria-current="page" href="#portfolio">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#contact">Contact</a>
-                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-uppercase" aria-current="page" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#contact">Contact</a>
+                    </li>
                 </ul>
-              </div>
-              
             </div>
-          </nav>
-        <header>
+
+        </div>
+    </nav>
+    <header>
+        <div class="hero container-lg text-center py-4">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-7">
+                    <img class="img-fluid" src="./img/avatar.svg" alt="avatar">
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col">
+                    <h1 class="text-uppercase pt-2 pb-3">start bootstrap</h1>
+                    <div class="d-flex justify-content-center align-items-center gap-2">
+                        <div class="star-brace"></div>
+                        <i class="fa-solid fa-star fs-1"></i>
+                        <div class="star-brace"></div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center gap-2">
+                        <span class="text-uppercase">graphic artist -</span>
+                        <span class="text-uppercase">web designer -</span>
+                        <span class="text-uppercase">illustrator</span>
+                    </div>
+                </div>
+            </div>
             
-            <div class="hero container-lg">
-                hero
+        </div>
+    </header>
+    <main>
+        <section id="portfolio" class="py-2 text-dark">
+            <div class="container-lg">
+                portfolio
             </div>
-        </header>
-        <main>
-            <section id="portfolio" class="py-2 text-dark">
-                <div class="container-lg">
-                    portfolio
-                </div>
-            </section>
+        </section>
 
-            <section id="about" class="py-2">
-                <div class="container-lg">
-                    about
-                </div>
-            </section>
-
-            <section id="contact" class="py-2 text-dark">
-                <div class="container-lg">
-                    contact
-                </div>
-            </section>
-
-        </main>
-        <footer>
-            <div id="top-footer" class="py-2">
-                <div class="container-lg">
-                    top footer
-                </div>
+        <section id="about" class="py-2">
+            <div class="container-lg">
+                about
             </div>
-            <div id="btm-footer" class="py-2">
-                <div class="container-lg">
-                    bottom footer
-                </div>
+        </section>
+
+        <section id="contact" class="py-2 text-dark">
+            <div class="container-lg">
+                contact
             </div>
-        </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+        </section>
+
+    </main>
+    <footer>
+        <div id="top-footer" class="py-2">
+            <div class="container-lg">
+                top footer
+            </div>
+        </div>
+        <div id="btm-footer" class="py-2">
+            <div class="container-lg">
+                bottom footer
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+</body>
+
 </html>

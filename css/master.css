@@ -37,3 +37,12 @@ main {
 .navbar-toggler{
     border: 1px solid white;
 }
+
+h1{
+    font-size: 2.2rem;
+}
+.star-brace{
+    height: 4px;
+    width: 15%;
+    background-color: white;
+}
