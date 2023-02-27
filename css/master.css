@@ -14,7 +14,7 @@ body{
     color: white;
 }
 header{
-    margin-top: 85px;
+    margin-top: 83px;
 }
 
 header, #about{
@@ -49,7 +49,7 @@ h1{
     font-size: 2.2rem;
 }
 .star-brace{
-    height: 4px;
+    height: 3px;
     width: 15%;
     background-color: white;
 }

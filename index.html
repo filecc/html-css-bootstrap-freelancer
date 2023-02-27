@@ -15,7 +15,7 @@
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fg-navbar fixed-top">
-        <div class="container-lg py-3 d-flex">
+        <div class="container-md py-3 d-flex">
 
             <a class="navbar-brand text-uppercase fw-bold" href="./index.html">start bootstrap</a>
 
@@ -44,20 +44,23 @@
         </div>
     </nav>
     <header>
-        <div class="hero container-lg text-center py-4">
+        <div class="hero container-md text-center py-4">
             <div class="row justify-content-center align-items-center">
-                <div class="col-7">
+                <div class="col-7 col-md-3">
                     <img class="img-fluid" src="./img/avatar.svg" alt="avatar">
                 </div>
             </div>
-            <div class="row py-3">
-                <div class="col">
+            <div class="row py-3 justify-content-center align-items-center">
+                <div class="col-12">
                     <h1 class="text-uppercase pt-2 pb-3">start bootstrap</h1>
                     <!-- star decoration -->
-                    <div aria-hidden="true" class="d-flex justify-content-center align-items-center gap-2">
-                        <div class="star-brace"></div>
-                        <i class="fa-solid fa-star fs-1"></i>
-                        <div class="star-brace"></div>
+                    <div aria-hidden="true" class="row justify-content-center align-items-center">
+                        <div class="col-12 col-md-8 d-flex justify-content-center align-items-center gap-2 pb-3">
+                            <div class="star-brace"></div>
+                            <i class="fa-solid fa-star fs-1"></i>
+                            <div class="star-brace"></div>
+                        </div>
+                       
                     </div>
                     <!-- /star decoration -->
                     <div class="d-flex justify-content-center align-items-center gap-2">
@@ -72,49 +75,52 @@
     </header>
     <main>
         <section id="portfolio" class="py-2 text-dark">
-            <div class="container-lg py-4">
+            <div class="container-md py-4">
                 <h2 class="text-uppercase text-center pb-3">portfolio</h2>
                 <!-- star decoration -->
-                <div aria-hidden="true" class="d-flex justify-content-center align-items-center gap-2">
-                    <div class="star-brace brace-dark"></div>
-                    <i class="fa-solid fa-star fs-1"></i>
-                    <div class="star-brace brace-dark"></div>
+                <div aria-hidden="true" class="row justify-content-center align-items-center">
+                    <div class="col-12 col-md-8 d-flex justify-content-center align-items-center gap-2 pb-3">
+                        <div class="star-brace brace-dark"></div>
+                        <i class="fa-solid fa-star fs-1"></i>
+                        <div class="star-brace brace-dark"></div>
+                    </div>
+                   
                 </div>
                 <!-- /star decoration -->
 
                 <div class="row">
                     <!-- portofolio illustrations -->
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <div class="p-2">
                             <img class="img-fluid rounded-3" src="./img/cabin.png" alt="cabin">
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <div class="p-2">
                             <img class="img-fluid rounded-3" src="./img/cake.png" alt="cake">
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <div class="p-2">
                             <img class="img-fluid rounded-3" src="./img/circus.png" alt="circus">
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <div class="p-2">
                             <img class="img-fluid rounded-3" src="./img/game.png" alt="game">
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <div class="p-2">
                             <img class="img-fluid rounded-3" src="./img/safe.png" alt="safe">
                         </div>
                     </div>
 
-                    <div class="col-12 pb-3">
+                    <div class="col-12 col-md-6 pb-3">
                         <div class="p-2">
                             <img class="img-fluid rounded-3" src="./img/submarine.png" alt="submarine">
                         </div>
@@ -123,8 +129,9 @@
             </div>
         </section>
 
+        <!-- about -->
         <section id="about" class="py-2">
-            <div class="container-lg py-4">
+            <div class="container-md py-4">
                 <h2 class="text-uppercase text-center pb-3">about</h2>
                 <!-- star decoration -->
                 <div aria-hidden="true" class="d-flex justify-content-center align-items-center gap-2">
@@ -134,9 +141,16 @@
                 </div>
                 <!-- /star decoration -->
                 <div class="row justify-content-center pt-4">
-                    <div class="col-8">
-                        <p class="fs-5">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and Javascript as well optional LESS stylesheets for easy customization.</p>
-                        <p class="fs-5">Whether you're a student looking to showcase your work, or a graphic artist looking to share your project, this template is the perfect starting point!</p>
+                    <div class="col-8 col-md-10">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <p class="fs-5">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and Javascript as well optional LESS stylesheets for easy customization.</p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <p class="fs-5">Whether you're a student looking to showcase your work, or a graphic artist looking to share your project, this template is the perfect starting point!</p>
+                            </div>
+                        </div>
+                        
                     </div>
                     <div class="row justify-content-center align-items-center pt-4">
                         <div class="col-5">
@@ -151,8 +165,10 @@
             </div>
         </section>
 
+        <!-- contact -->
+
         <section id="contact" class="py-2 text-dark">
-            <div class="container-lg py-4">
+            <div class="container-md py-4">
                 <h2 class="text-uppercase text-center pb-3">contact me</h2>
                 <!-- star decoration -->
                 <div aria-hidden="true" class="d-flex justify-content-center align-items-center gap-2">
@@ -162,7 +178,7 @@
                 </div>
                 <!-- /star decoration -->
                 <div class="row justify-content-center">
-                    <div class="col-8">
+                    <div class="col-8 col-md-10 pt-3">
                         <div class="mb-3">
                             <input type="email" class="form-control border-0 border-bottom px-0 fs-3" id="name" placeholder="Name">
                         </div>
@@ -183,31 +199,48 @@
     </main>
     <footer>
         <div id="top-footer" class="py-2">
-            <div class="container-lg py-4">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-10 pt-4">
-                        <p class="text-uppercase text-center fs-5">location</p>
-                        <p class="text-center fs-5">2215 John Daniel Drive Clark, MO 54243</p>
-                        <p class="text-uppercase fs-5 text-center pt-4">around the web</p>
+            <div class="container-md py-4">
+                <div class="row justify-content-center justify-content-md-between align-items-center">
+                    <div class="col-10 col-md-12 pt-4">
 
-                        <!-- social icon -->
-                        <div class="social row justify-content-center align-items-center">
-                            <div class="col-9 d-flex justify-content-between align-items-center">
-                                <i class="fa-brands fa-facebook-f border rounded-circle d-flex justify-content-center align-items-center fs-4"></i>
-                                <i class="fa-brands fa-google-plus-g border rounded-circle d-flex justify-content-center align-items-center fs-4"></i>
-                                <i class="fa-brands fa-twitter border rounded-circle d-flex justify-content-center align-items-center fs-4"></i>
-                                <i class="fa-brands fa-linkedin-in border rounded-circle d-flex justify-content-center align-items-center fs-4"></i>
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <p class="text-uppercase text-center fs-5">location</p>
+                                <p class="text-center fs-5">2215 John Daniel Drive Clark, MO 54243</p>
+                                
+                            </div>
+                            
+    
+                            <!-- social icon -->
+                            <div class="col-md-4">
+                                <div class="social row justify-content-center align-items-center align-self-md-start">
+                                    <div class="col-9 col-md-12">
+                                        <p class="text-uppercase fs-5 text-center pt-4 pt-md-0">around the web</p>
+                                        <div class="d-flex justify-content-between justify-content-md-center align-items-center gap-md-2">
+                                            <i class="fa-brands fa-facebook-f border rounded-circle d-flex justify-content-center align-items-center fs-4"></i>
+                                            <i class="fa-brands fa-google-plus-g border rounded-circle d-flex justify-content-center align-items-center fs-4"></i>
+                                            <i class="fa-brands fa-twitter border rounded-circle d-flex justify-content-center align-items-center fs-4"></i>
+                                            <i class="fa-brands fa-linkedin-in border rounded-circle d-flex justify-content-center align-items-center fs-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <p class="text-uppercase text-center fs-5 pt-5 pt-md-0">about freelancer</p>
+                                <p class="fs-5 text-center">Freelance is a free to use, open source Bootstrap theme created by <a class="footer-a" href="./index.html">Start Bootstrap</a></p>
                             </div>
                         </div>
-                        <p class="text-uppercase text-center fs-5 pt-5">about freelancer</p>
-                        <p class="fs-5 text-center">Freelance is a free to use, open source Bootstrap theme created by <a class="footer-a" href="./index.html">Start Bootstrap</a></p>
+                        
+                        
                         
                     </div>
                 </div>
             </div>
         </div>
         <div id="btm-footer" class="py-3">
-            <div class="container-lg">
+            <div class="container-md">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-10 py-4 text-center">
                         <small class="">Copyright &copy; Your Website 2023</small>
