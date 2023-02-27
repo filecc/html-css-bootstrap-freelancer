@@ -6,8 +6,15 @@
 --black: #333333;
 }
 
+*{
+    scroll-margin-top: 85px;
+}
+
 body{
     color: white;
+}
+header{
+    margin-top: 85px;
 }
 
 header, #about{
@@ -68,5 +75,14 @@ h1{
 .fg-btn-green:is(:hover, :active, :focus, :visited, :target){
     background-color: var(--aqua-green);
     border-color: var(--aqua-green);
+}
+
+.social i{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-a{
+    color: var(--aqua-green);
 }
 
