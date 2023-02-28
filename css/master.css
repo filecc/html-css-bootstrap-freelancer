@@ -44,7 +44,16 @@ main {
 .navbar-toggler{
     border: 1px solid white;
 }
+.navbar-toggler:hover, .navbar-toggler-icon:hover{
+    color: var(--aqua-green);
+}
 
+.navbar-toggler:hover{
+    border: 1px solid var(--aqua-green);
+}
+#navbarToggler a:hover{
+    color: var(--aqua-green);
+}
 h1{
     font-size: 2.2rem;
 }
